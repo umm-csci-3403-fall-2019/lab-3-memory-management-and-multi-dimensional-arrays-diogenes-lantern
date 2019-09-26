@@ -6,5 +6,5 @@
 #define UNIT_TESTING
 
 void mergesort(int size, int values[]);
-
+bool needs_sorting(int);
 #endif
