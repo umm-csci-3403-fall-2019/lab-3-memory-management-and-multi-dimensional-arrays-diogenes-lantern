@@ -1,5 +1,6 @@
 #include "mergesort.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 
 bool needs_sorting(int range_size){
@@ -50,6 +51,7 @@ int midpoint = (start_index + end_index) / 2;
 mergesort_range(values,start_index,midpoint);
 mergesort_range(values,midpoint,end_index);
 merge_ranges(values,start_index,midpoint,end_index);
+
 }
 }
 
